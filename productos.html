@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+<style>
+.content {
+    width: 100%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;   
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    width: 97%;
+}
+
+.left {
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    width: 90%;
+    border: #F2F2F2 solid 1px;
+    height: auto;
+}
+
+.right {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    width: 50%;
+    border: #F2F2F2 solid 1px;
+    height: auto;
+    </style>
+    <style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FE2E2E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #B40404;
+}
+</style>
+<style >body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    height: 510px;
+    width: 25%;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 330px;
+    width: 330px;
+}
+.conte .stromtroper{
+     background-color: #111;
+}
+.conte .iron-man{
+    background-color: #6A0C0B;
+}
+.conte .spider-man{
+    background-color:#B11313;
+}
+.conte .iron-man img{
+    height: 330px;
+    width: 230px;
+}
+.conte .spider-man img{
+    height: 330px;
+    width: 300px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+@media (max-width:320px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .conte{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
+
+</style>
+<style>footer {
+    max-width: 1500px;
+    background: #F44336;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: aial;
+    font-size:18px ;
+ }
+ /*pie de pagina*/
+
+ @keyframes entrada{
+   0% {
+
+         transform:translateY(-200px);
+   }
+
+ }
+
+ @keyframes rotacion {
+   0%{
+      transform: rotate(270deg);
+
+   }
+
+ }</style>
+</head>
+<body>
+	<br><br><br>
+
+<ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a class="active" href="Productos.html">Productos</a></li>
+  <li><a href="formulario.html">Comenta y mas</a></li>
+  <li><a href="nosotros.html">Nosotros</a></li>
+</ul>
+
+<div   style="padding:20px;margin-top:30px;background-color:#FFFFFF;height:600px;">
+    <pre>  <img src="logo.svg">  </pre>
+	</div>
+
+	 <div class="conte ">
+         <div class="card stromtroper">
+             <img src="https://s.fenicio.app/f2/corrdo/catalogo/articulos/LL-81MQ000JUS_001_1_800x800_1619730864_920.jpg" alt="">
+         </div>
+         <div class="informacion">
+             <h1>LAPTOP LENOVO 14",PROCESADOR AMD A6-9220C DUAL-CORE - 001</h1>
+            <p class="fecha">
+                Fecha Salidad:01/3/2021
+            </p>
+         </div>
+         <div class="precio">
+             <div class="box-precio">
+                 <span class="precio1"><strike>S/35.00</strike> </span>
+             <span class="precio2"><b>S/35.00</b></span>
+             </div>
+             <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+         </div>
+     </div>
+     
+    <div class="conte">
+         <div class="card iron-man">
+             <img src="https://s.fenicio.app/f2/corrdo/catalogo/articulos/LHP-9PD50UT_001_1_800x800_1619730867_a68.jpg" alt="">
+         </div>
+         <div class="informacion">
+             <h1>LAPTOP HP PROBOOK X360 11.6",TOUCHSCREEN, 360, 2EN1 EDUCATION EDITION - 001</h1>
+            <p class="fecha">
+                Fecha Salidad:01/15/2021
+            </p>
+         </div>
+         <div class="precio">
+             <div class="box-precio">
+                 <span class="precio1"><strike>S/45.00</strike> </span>
+                 <span class="precio2"><b>S/45.00</b></span>
+             </div>
+             <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+         </div>
+     </div>
+     
+    <div class="conte">
+         <div class="card spider-man">
+             <img src="https://s.fenicio.app/f2/corrdo/catalogo/articulos/LD-LAT7290_001_1_800x800_1624306461_bb7.jpg" alt="">
+         </div>
+         <div class="informacion">
+             <h1>LAPTOP DELL, LATITUDE 7290 12.5",INTEL I7-8665U - 001</h1>
+            <p class="fecha">
+                Fecha Salidad:03/20/2021
+            </p>
+         </div>
+         <div class="precio">
+             <div class="box-precio">
+                 <span class="precio1"><strike>S/55.00</strike> </span>
+             <span class="precio2"><b>S/55.00</b></span>
+             </div>
+             <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+         </div>
+</div>
+
+</body>
+</html>
